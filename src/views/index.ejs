@@ -63,7 +63,7 @@
         <h2 class="text-center">Portfolio</h2>
         <hr class="star-primary">
         <div class="row">
-            <% for (var i = 0; i < gallery.images.length; i++) {%>
+            <% for (var i = 0; i < shuffleGallery.length; i++) {%>
             <div class="col-sm-4 portfolio-item">
                 <a class="portfolio-link" href="#portfolioModal<%=i+1%>" data-toggle="modal">
                     <div class="caption">
@@ -71,7 +71,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="<%=gallery.dir%><%=gallery.images[i].thumb%>" alt="">
+                    <img class="img-fluid" src="<%=gallery.dir%><%=shuffleGallery[i].thumb%>" alt="">
                 </a>
             </div>
             <%}%>
