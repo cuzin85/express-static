@@ -5,7 +5,7 @@ export const router = express.Router();
 
 router.route('/')
   .get((req, res) => {
-    res.render('contacts', {nav});
+    res.render('contacts', {nav, activeLink: nav[3].link});
   });
 
 router.route('/some')

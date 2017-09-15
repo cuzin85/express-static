@@ -1,7 +1,8 @@
 export const nav = [
-  {link: '#portfolio', text: 'Portfolio'},
-  {link: '#about', text: 'About'},
-  {link: '#contact', text: 'Contact'}
+  {link: '/', text: 'Main'},
+  {link: '/portfolio', text: 'Portfolio'},
+  {link: '/about', text: 'About'},
+  {link: '/contacts', text: 'Contact'}
 ];
 
 export const gallery = {
